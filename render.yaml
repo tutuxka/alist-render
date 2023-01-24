@@ -11,23 +11,23 @@ services:
       - key: PORT
         value: 5244
       - key: DB_TYPE
-         value: postgres
-        sync: true
+        # value: sqlite3
+        sync: false
       - key: DB_HOST
-         value: satao.db.elephantsql.com
-        sync: true
+        # value: db_host
+        sync: false
       - key: DB_PORT
-         value: 5432
-        sync: true
+        # value: 3306
+        sync: false
       - key: DB_USER
-         value: gbmuyvcg
-        sync: true
+        # value: db_user
+        sync: false
       - key: DB_PASS
-         value: KVTXsf8mBAxLff4kk3VVfI_7WLmPxVtb
-        sync: true
+        # value: db_password
+        sync: false
       - key: DB_NAME
-         value: gbmuyvcg
-        sync: true
+        # value: db_name
+        sync: false
       - key: DB_TABLE_PREFIX
         # value: alist_
         sync: false
